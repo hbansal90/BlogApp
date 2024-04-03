@@ -1,0 +1,65 @@
+[33mcommit 96fa211c9cf29b4fef3b1795566bc71abdad6da5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Harsh Bansal <hbnsl890@gmail.com>
+Date:   Wed Apr 3 23:53:51 2024 +0530
+
+    Update: Added Configuration file in appwrite
+    to create services of BaaS
+    Serices Added:
+     to create posts, get posts, delete post, craete, delete
+     and preview a file.
+    References:
+    Appwrite Documnetation for Storage and databases
+    Generally, we learnt about how we can set the databases
+
+[33mcommit 0b4549ae20dd4c0175e7032ae50ae21f1984d777[m
+Author: Harsh Bansal <hbnsl890@gmail.com>
+Date:   Wed Apr 3 03:00:24 2024 +0530
+
+    Update: Created a auth file, which is a resuable
+    collection of services such as login, logout
+    
+    Help: the Auth.file can be used again for appwrite
+    BaAS
+     Changes to be committed:
+            modified:   .gitignore
+            modified:   src/App.jsx
+            new file:   src/appwrite/auth.js
+        new file:   src/conf/config.js
+
+[33mcommit 9ddf310b8449cc98d163f3cbe9279746283691b7[m
+Author: Harsh Bansal <hbnsl890@gmail.com>
+Date:   Fri Mar 22 03:31:34 2024 +0530
+
+    README updated
+
+[33mcommit 1b5576ccf8860c1d751539087c8e4319760d51de[m
+Author: Harsh Bansal <hbnsl890@gmail.com>
+Date:   Fri Mar 22 03:24:06 2024 +0530
+
+    First Commit after installing libraries
+    1. Appwrite for BAaS
+    2. Tiny MCE : react component for the rich text edior
+    3. html-react-parser: npm dependcies to parse html created for files
+    4. React Hook form: to handle input form
+    5. Tailwind css
+    6. React-router-dom
+    7. Redux
+    8. React
+    Initial commit
+    
+    Changes to be committed:
+            new file:   .eslintrc.cjs
+            new file:   .gitignore
+            new file:   README.md
+            new file:   index.html
+            new file:   package-lock.json
+            new file:   package.json
+            new file:   postcss.config.js
+            new file:   public/vite.svg
+            new file:   src/App.css
+            new file:   src/App.jsx
+            new file:   src/assets/react.svg
+            new file:   src/index.css
+            new file:   src/main.jsx
+            new file:   tailwind.config.js
+            new file:   vite.config.js
