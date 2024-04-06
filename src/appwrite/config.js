@@ -35,7 +35,7 @@ export class Service {
         }
     }
     // to upadte the post
-    async updatePost(slug, { title, slug, content, featuredImage, status, userId }) {
+    async updatePost(slug, { title, content, featuredImage, status}) {
         try {
             return await this.databases.updateDocument(
                 conf.appwriteDatabaseId,
